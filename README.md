@@ -1,3 +1,3 @@
 # Computer Vision
-#1. Gaze Detection & Tracking
+#1. Gaze Detection & Tracking :- 
 This Simple Project involved using Dlib and OpenCV-Python Libraries. For A High Level Overview, It Involved in using Dlib to extract face contour information and creating an "Eye Mask" This is done by detect the iris of the user and estimate the position of the pupil by calculating the centroid. The centroid is calculated as the arithmetic mean of all the points in a “blob”, where in this case, a “blob” (or the user’s pupil) is defined as a group of connected pixels in an image that shares some common property (e.g., a grayscale value). A Bitwise-And Operation is then used to create a mask. We then show the output in another window with frame by frame inferencing.
