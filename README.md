@@ -1,5 +1,5 @@
 # Computer Vision
-#1. Gaze Detection & Tracking :- 
+# 1. Gaze Detection and Tracking :-
 ## Overview
 This project implements gaze detection and tracking using computer vision techniques. It processes real-time video input to identify eye contours, apply masking, reshape NumPy arrays, and run inference.
 
