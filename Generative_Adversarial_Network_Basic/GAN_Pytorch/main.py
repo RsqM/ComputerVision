@@ -64,7 +64,7 @@ for epoch in range(num_epochs):
         g_loss.backward()
         optimizer_G.step()
 
-        if i % 100 == 0:
+        if i % int(len(data_loader)/10) == 0:
             print(f'Epoch [{epoch+1}/{num_epochs}], Step [{i}/{len(data_loader)}], '
                   f'D Loss: {d_loss.item():.4f}, G Loss: {g_loss.item():.4f}')
 
